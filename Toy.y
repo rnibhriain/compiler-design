@@ -520,7 +520,7 @@ declaration :  type IDENTIFIER {printf("declaration of : %s\n",yylval.id );
 
 expr_list : {
             if (currentExpr != (struct symbol *) NULL) {
-                if (currentExpr->vars != (struct symbol *) NULL) {
+                if (currentExpr->next != (struct symbol *) NULL) {
             printf("not enough params\n");
             return 1;
     }
@@ -530,10 +530,10 @@ expr_list : {
             if (strcmp(currentExpr->type, currentType) != 0) {
             printf("wrong expr type1 %s %s\n", currentType, currentExpr->type);
             return 1;
-    } if (currentExpr->vars != (struct symbol *) NULL) {
+    } if (currentExpr->next != (struct symbol *) NULL) {
             printf("not enough params\n");
             return 1;
-    }}
+    }} 
     | ex COMMA expr_list {}
 ;
 
