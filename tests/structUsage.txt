@@ -1,0 +1,19 @@
+//TEST CASE 15
+//Test case description: testing good struct usage, with the dot operator.
+//TEST CASE - SUCCESS
+
+struct struc {
+	int y
+}
+
+struct sum {
+	string h,
+	struc u
+}
+
+void  main () {
+	sum loo;
+		printf("string");
+	loo.u.y = 90;
+
+}

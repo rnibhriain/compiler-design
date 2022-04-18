@@ -1,0 +1,13 @@
+//TEST CASE 8 
+//Testing an incorrect assignment - assigning an int to a string.
+//Valid Test
+
+struct Name {
+	string first_name,
+	string last_name
+}
+
+void main () {
+    int x;
+    x="hell";
+}

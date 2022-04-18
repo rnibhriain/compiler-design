@@ -1,0 +1,55 @@
+//TEST CASE 7 
+//Not in scope Test
+//Valid test - Error as the hi is not in scope
+
+bool func (int op) {
+    return 6 < 7;
+}
+
+int great () {
+    return 6;
+}
+
+struct something {
+    string s
+}
+
+struct find {
+
+    int four,
+    bool sevenm,
+    something two
+}
+
+void main (string hello) {
+    int x;
+    string type;
+    bool y;
+
+
+    y = 6 < 7;
+
+
+
+
+    type = hello;
+
+    x =  7;
+    if (true) then {if (true) then x = 1;}
+
+    for (x = 2; 6 < 7; ) {
+        int op;
+        op =  6;
+        if (6<7) then 
+        {int u;
+        if (6<7) then {u = 9;
+            bool hi;
+        } y = hi;}
+
+    }
+
+
+    y = func();
+
+
+}

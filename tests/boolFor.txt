@@ -1,0 +1,13 @@
+//TEST CASE 18
+//Testing for the second component of for loop being boolean,
+//successfully gives an Error.
+//Valid Test - ERROR, cannot have bool in second component.
+
+void main() {
+    int x;
+    bool correct;
+    correct =true;
+    for(x=4; bool = false;x=5) {
+        x = 3;
+    }
+}

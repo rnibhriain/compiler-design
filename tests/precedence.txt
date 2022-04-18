@@ -1,0 +1,8 @@
+ //TEST CASE 17.
+ //Error as * and / are of same precedence.
+ //VALID TEST - ERROR
+ 
+ void main() {
+     int x;
+     x = 1 * 2 / 3;
+ }

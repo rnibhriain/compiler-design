@@ -1,0 +1,21 @@
+//TEST CASE 6.
+//Test Case Description: reserved words used incorrectly.
+//bool is a reserved word used as a name.
+//Successfully detects bool as being a reserved word and produces an error.
+
+int main() {
+    int x;
+	string type;
+
+	
+	for (x = 2; 6 < 7; x  = 2) {
+		return 12;
+	}
+	bool();
+}
+
+
+struct bool () {
+	int y;
+	y=1;
+}

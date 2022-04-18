@@ -1,0 +1,14 @@
+//TEST CASE 4.
+//Number should give an error as it exceeds limitations
+//Test Case for (b) Integers larger than Integer.MAX VALUE
+//Successfully detects an error for x=-23536506402345;
+//Test Valid - ERROR
+
+int func() {
+    return 2;
+}
+
+void main () {
+    int x;
+    x=-23536506402345;
+}

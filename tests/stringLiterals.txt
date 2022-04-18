@@ -1,0 +1,20 @@
+//TEST CASE 1.
+//Testing string literals - our strings are represented by string variable,
+//string literals and can also accept different symbols within a set of,
+//string quotations and be 'added' by the + operator.
+//Valid test - SUCCESS
+
+struct Name {
+	string first_name,
+	string last_name
+}
+
+void main () {
+    string greeting;
+    greeting = "Hello";
+    string description;
+    description = "The parser can accept different symbols" +
+    "and even go _1234 to the second line";
+
+
+}

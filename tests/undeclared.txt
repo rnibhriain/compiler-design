@@ -1,0 +1,12 @@
+//TEST CASE 11
+//Testing for an undeclared variable
+//Valid Test - Error as x is not intialised to an int
+
+struct Name {
+	string first_name,
+	string last_name
+}
+
+void main () {
+    x = 12;
+}

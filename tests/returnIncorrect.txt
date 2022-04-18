@@ -1,0 +1,31 @@
+//TEST CASE 16
+//Testing for the returns in each fuction to be of correct type.
+//Last function is a string which returns an int - gives an error successfully.
+//Valid Test = ERROR wring return type.
+
+void main() {
+    int x;
+    x=4;
+    string greet;
+    greet = "hello";
+
+    //main has no return type as it is void
+}
+
+int math() {
+    int a;
+    int b;
+    int c;
+    int res;
+    res = 1 + 2;
+    bool test;
+    test = true;
+
+    return res;
+}
+
+string hello () {
+    string green;
+    int z;
+    return z;
+}

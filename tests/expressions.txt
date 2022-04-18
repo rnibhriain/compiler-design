@@ -1,0 +1,8 @@
+//TEST CASE 20
+//Testing for an expreesion not being well-types, using a !
+//Successfully gets an error.
+
+void main() {
+    int x;
+    x = !4;
+}

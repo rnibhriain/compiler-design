@@ -1,0 +1,29 @@
+//TEST CASE 14
+//Testing for the returns in each fuction to be of correct type.
+//Valid Test = SUCCESS
+
+void main() {
+    int x;
+    x=4;
+    string greet;
+    greet = "hello";
+
+    //main has no return type as it is void
+}
+
+int math() {
+    int a;
+    int b;
+    int c;
+    int res;
+    res = 1 + 2;
+    bool test;
+    test = true;
+
+    return res;
+}
+
+string hello () {
+    string green;
+    return green;
+}

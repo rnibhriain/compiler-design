@@ -1,0 +1,38 @@
+//TEST CASE 27
+//Correct code text, declaring variables, arithmetic expressions, if statements
+//return statements, printing strings, functions, proc calls.
+//Valid Code: SUCCESS
+
+struct College {
+	string courseTitle,
+	int grade,
+    string studentName
+}
+
+string singing(string greeting) {
+    string hello;
+    return hello;
+}
+
+int arith (int l) {
+	if (3 < 4) then return 4 ; else return 5;
+	if (3 < 4) then { return 4 ; } else {return 5;}
+	int x;
+    for(x=4; 4 < 5; x=4){
+        printf("Yellow");
+    }
+	x = 100 - 6;
+	x = -3455;
+	string y;
+	printf("workinggggg");
+	bool booleanCreation;
+	booleanCreation =  true;
+
+	return 3;
+}
+
+void main() {
+	string craxy;
+    arith(11);
+    singing("greeeetinggggs");
+}

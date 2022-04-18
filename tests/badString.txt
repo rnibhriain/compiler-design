@@ -1,0 +1,15 @@
+//TEST CASE 2.
+//Testing if we give a bad string literal, a hello without the quotations,
+//and the use of an underscore - should give an error.
+//Valid test - ERROR as string is incorrect
+
+struct Name {
+	string first_name,
+	string last_name
+}
+
+void main () {
+    string greeting;
+    greeting = "Hello_
+
+}

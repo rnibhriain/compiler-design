@@ -1,0 +1,15 @@
+//TEST CASE 5.
+//Testing if we give an incorrect int, ints can only take numbers
+//testing with a wd between the numbers.
+//Valid test - ERROR int is incorrect.
+
+struct Name {
+	string first_name,
+	string last_name
+}
+
+void main () {
+    int x;
+    x = 1wd34;
+
+}

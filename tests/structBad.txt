@@ -1,0 +1,19 @@
+//TEST CASE 28
+//Test case description: testing bad struct use, trying to do loo.u.g where g is not declared.
+//TEST CASE - ERROR successfully
+
+struct struc {
+	int y
+}
+
+struct sum {
+	string h,
+	struc u
+}
+
+void  main () {
+	sum loo;
+		printf("string");
+	loo.u.g = 90;
+
+}

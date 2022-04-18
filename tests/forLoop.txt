@@ -1,0 +1,18 @@
+//TEST CASE 9
+//Code tests a for loop, return type, function calls.
+// Valid Test - SUCCESS
+
+int func () {
+	return 1;
+}
+
+int main () {
+	int x;
+	string type;
+
+	
+	for (x = 2; 6 < 7; x  = 2) {
+		return 12;
+	}
+	func();
+}

@@ -1,0 +1,20 @@
+//TEST CASE 22
+//Correct code text, declaring variables, arithmetic expressions, if statements
+//return statements, printing strings, functions and main.
+//Valid Code: SUCCESS
+
+struct Colour {
+	string yellow,
+	string pink,
+    string blue,
+    string orange
+}
+
+int test (int y, int z) {
+    int x;
+}
+
+void main() {
+	string craxy;
+    test(1, 7);
+}

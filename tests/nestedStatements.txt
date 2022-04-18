@@ -1,0 +1,10 @@
+//TEST CASE 10
+//Testing if and nestedd if statements
+//Valid Test - SUCCESS
+
+void main() {
+    int x;
+    int y;
+
+    if (true) then if (true) then x = 1; else y = 2;
+}

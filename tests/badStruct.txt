@@ -1,0 +1,22 @@
+//TEST CASE 23
+//Test Description - testing incorrect struct usage, applying a string literaly to a struct using a LHS and RHS int operator. 
+//TEST CASE - valid ERROR
+
+struct struc {
+    int y
+}
+
+struct sum {
+    string h,
+    struc u
+}
+
+void  main () {
+    sum loo;
+    printf("string");
+    struc sim;
+
+    int p;
+    loo.u.y = "hello";
+
+}

@@ -1,0 +1,21 @@
+//TEST CASE 24
+//Testing for incorrect proc calls, calling the function test which takes two
+//int parameters but passing through a function with no parameters
+//Valid Code: ERROR
+
+struct Colour {
+	string yellow,
+	string pink,
+    string blue,
+    string orange
+}
+
+int test (int y, int z) {
+    int x;
+}
+
+void main() {
+	string craxy;
+    test();
+
+}

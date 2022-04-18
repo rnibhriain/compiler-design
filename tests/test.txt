@@ -1,0 +1,15 @@
+//TEST CASE 21
+// Testing the type of different variabled in the table
+//Valid Test - SUCCESS
+
+struct something {
+    string s
+}
+
+something  main () {
+    int i;
+    something yarp;
+
+
+
+}
