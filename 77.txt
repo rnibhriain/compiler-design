@@ -1,0 +1,18 @@
+struct Name {
+	string first_name,
+	string last_name
+}
+
+void main () {
+	if (3 < 4) then return 4 ; else return 5;
+	if (3 < 4) then { return 4 ; } else {return 5;}
+	int x;
+	x = 9 + 7;
+	x = 32762;
+	string y;
+	printf("wren");
+	bool t;
+	t =  true;
+
+	return 3;
+}

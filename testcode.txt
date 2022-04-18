@@ -1,0 +1,18 @@
+struct struc {
+	int y
+}
+
+struct sum {
+	string h,
+	struc u
+}
+
+void  main () {
+	sum loo;
+	printf("string");
+	struc sim;
+
+	int p;
+	loo.u.y = 8;
+
+}
