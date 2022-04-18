@@ -208,7 +208,7 @@ void print_symbols () {
 %left MUL DIV DOT 
 %left ADD MIN
 %left NOT
-%nonassoc LESS LEQ GREQ MORE EQU EQ NEQ NOT CBL BL CBR BR 
+%nonassoc LESS LEQ GREQ MORE EQU EQ NEQ CBL BL CBR BR 
 %right AND OR THEN ELSE 
 %type <id> IDENTIFIER id
 
