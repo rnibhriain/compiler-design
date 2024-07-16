@@ -1,4 +1,4 @@
-# Compiler-design
+# Compiler Design
 Project in module CSU33071 to create a lexer and a parser for a Toy language
 
 ## Using the Compiler
